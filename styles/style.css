@@ -144,3 +144,14 @@ main{
     gap: 155px;
     margin-bottom: 130px;
 }
+/*  */
+footer{
+    max-width: 1440px;
+    height: 100px; 
+    padding: 40px 240px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    text-align: center;
+}

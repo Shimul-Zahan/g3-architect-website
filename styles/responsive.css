@@ -1,7 +1,9 @@
 
 @media screen and (max-width: 576px) {
     header,
-    main
+    main,
+    footer,
+    .banner-image
     {
         width: 100%;
         padding: 20px;
@@ -18,10 +20,10 @@
     {
         margin-bottom: 20px;
     }
-    .banner-image
-    {
+    
+    /* {
         width: 100%;
-    }
+    } */
     .feature-image-container{
         grid-template-columns: 1fr;
     }
