@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    width: 100%;
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+
+/* banner */
+.banner{
+    margin-top: 102px;
+    text-align: center;
+}
+.banner .banner-desc{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+.banner-img{
+    width: 1440px;
+    height: 700px;
+}
