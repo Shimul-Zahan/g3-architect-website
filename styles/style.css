@@ -42,3 +42,23 @@ nav ul li a{
     width: 1440px;
     height: 700px;
 }
+
+main{
+    padding: 50px 240px;
+}
+.feature-container{
+    display: flex;
+    gap: 73px;
+    margin: 85px 0;
+    justify-content: center;
+    align-items: center;
+}
+.feature-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-desc-container p{
+    max-width: 537px; 
+    margin: 24px 0 32px;
+}

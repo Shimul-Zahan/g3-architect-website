@@ -1,10 +1,14 @@
 
 @media screen and (max-width: 576px) {
-    header{
+    header,
+    main
+    {
         width: 100%;
         padding: 20px;
     }
-    nav{
+    nav,
+    .feature-container
+    {
         flex-direction: column;
     }
     .logo{
@@ -12,5 +16,8 @@
     }
     .banner-image{
         width: 100%;
+    }
+    .feature-image-container{
+        grid-template-columns: 1fr;
     }
 }
